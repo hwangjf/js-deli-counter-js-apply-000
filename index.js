@@ -1,7 +1,8 @@
 var katzDeli = []
+var n = 0
 
 function takeANumber (line, name) {
-  var n
+  n++
   
   return 'Welcome, you are number ' + n + ' in line.'
 }
